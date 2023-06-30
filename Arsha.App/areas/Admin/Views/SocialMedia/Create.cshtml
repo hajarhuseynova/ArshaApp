@@ -1,0 +1,30 @@
+﻿@model SocialMedia
+
+<div class="container">
+<form method="post">
+        <div class="mb-3 mt-3">
+            <select asp-for="TeamMembersId" class="form-select" aria-label="Default select example">
+                <option selected>Select Team Member</option>
+                @foreach (var item in ViewBag.TeamMembers)
+                {
+                    <option value="@item.Id">@item.FullName</option>
+                }
+            </select>
+            <span class="text text-danger" asp-validation-for="TeamMembersId"></span>
+        </div>
+    <div class="mb-3">
+            <label for="Link" class="form-label">Link:</label>
+            <input type="text" class="form-control" asp-for="@Model.Link" >
+            <span class="text text-danger" asp-validation-for="@Model.Link"></span>
+
+    </div>
+    <div class="mb-3">
+            <label for="Icon" class="form-label">Icon:</label>
+            <input type="text" class="form-control" asp-for="@Model.Icon">
+            <span class="text text-danger" asp-validation-for="@Model.Icon"></span>
+
+    </div>
+    <button type="submit" class="btn btn-secondary">Create</button>
+    @Html.AntiForgeryToken()
+</form>
+</div>

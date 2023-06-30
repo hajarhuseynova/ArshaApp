@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arsha.App", "Arsha.App.csproj", "{BDF103B8-180F-4FE1-9142-90087AE3D44F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arsha.Core", "..\Arsha.Core\Arsha.Core.csproj", "{4BAF8B2C-B060-4D42-B355-63DC434971BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDF103B8-180F-4FE1-9142-90087AE3D44F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDF103B8-180F-4FE1-9142-90087AE3D44F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDF103B8-180F-4FE1-9142-90087AE3D44F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDF103B8-180F-4FE1-9142-90087AE3D44F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BAF8B2C-B060-4D42-B355-63DC434971BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BAF8B2C-B060-4D42-B355-63DC434971BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BAF8B2C-B060-4D42-B355-63DC434971BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BAF8B2C-B060-4D42-B355-63DC434971BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C99E38E-74C1-48B1-B2EF-440DA64B497A}
+	EndGlobalSection
+EndGlobal
