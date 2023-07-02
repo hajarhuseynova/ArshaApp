@@ -18,6 +18,6 @@ namespace Arsha.Core.Entities
         [NotMapped]
         public IFormFile? File { get; set; }
         public int CategoryId { get; set; }
-        public Category Category { get; set; }
+        public Category? Category { get; set; }
     }
 }

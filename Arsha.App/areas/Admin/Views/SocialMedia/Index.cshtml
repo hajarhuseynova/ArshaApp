@@ -6,7 +6,7 @@
                 <th scope="col">Id</th>
                 <th scope="col">Name</th>
                     <th scope="col">Link</th>
-                    <th scope="col">Icon</th>
+                  
                 <th scope="col">Update</th>
                 <th scope="col">Delete</th>
             </tr>
@@ -18,7 +18,7 @@
                         <th scope="row">@item.Id</th>
                      <td>@item.TeamMembers.FullName</td>
                         <td style="overflow-x:hidden; ">@item.Link</td>
-                    <td>@Html.Raw(item.Icon)</td>
+                
                         <td><a asp-controller="socialMedia" asp-action="update" asp-route-id="@item.Id" >
                             <i class="fas fa-edit text text-primary"></i></a></td>
                         <td><a onclick="if(!confirm('Are you sure?')){return false;}"
